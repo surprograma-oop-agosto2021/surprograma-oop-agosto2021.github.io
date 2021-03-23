@@ -28,7 +28,7 @@
         {% else %}
         <span>
           {% assign url = item %}
-          {% if item == 'posts' and page.layout == 'post' %}
+          {% if item == 'articulos' and page.layout == 'post' %}
             {% assign url = '/' %}
           {% endif %}
           <a href="{{ url | relative_url }}">
