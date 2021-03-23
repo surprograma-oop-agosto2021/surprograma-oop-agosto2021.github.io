@@ -41,7 +41,7 @@ layout: page
       {% else %}
         <i class="far fa-folder fa-fw"></i>
       {% endif %}
-        <a href="{{ site.baseurl }}/categories/{{ category_name | slugify | url_encode }}/"
+        <a href="{{ site.baseurl }}/categorias/{{ category_name | slugify | url_encode }}/"
           class="ml-1 mr-2">
           {{ category_name }}
         </a>
@@ -54,7 +54,7 @@ layout: page
             {% if sub_categories_size > 1 %}categories{% else %}category{% endif %},
           {% endif %}
             {{ top_posts_size }}
-            post{% if top_posts_size > 1 %}s{% endif %}
+            artículo{% if top_posts_size > 1 %}s{% endif %}
         </span>
       </span>
 
@@ -84,7 +84,7 @@ layout: page
             class="ml-1 mr-2">{{ sub_category }}</a>
           {% assign posts_size = site.categories[sub_category] | size %}
           <span class="text-muted small font-weight-light">{{ posts_size }}
-            post{% if posts_size > 1 %}s{% endif %}
+            artículo{% if posts_size > 1 %}s{% endif %}
           </span>
         </li>
         {% endfor %}

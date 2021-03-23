@@ -9,6 +9,7 @@ panel:
 
 post:
   relate_posts: Seguir leyendo
+  published_by: Publicado por
   posts: Artículos
   share: Compartir
   button:
@@ -18,7 +19,7 @@ post:
 
 search_hint: Buscar   # text show on search bar
 
-pin_prompt: Pinned    # pinned prompt
+pin_prompt: Fijado    # pinned prompt
 
 read_time_unit: minutos   # see posts' time to read
 
