@@ -4,6 +4,8 @@ source "https://rubygems.org"
 
 gemspec
 
+gem 'jemoji'
+
 group :test do
   gem "html-proofer", "~> 3.18"
 end

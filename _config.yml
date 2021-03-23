@@ -8,16 +8,16 @@ theme: jekyll-theme-chirpy
 baseurl: ''
 
 # the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
-lang: en-US
+lang: es-AR
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: America/Argentina/Buenos_Aires
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Chirpy                          # the main title
+title: Programación con Objetos 2                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Licenciatura en Informática - Universidad Nacional de Hurlingham   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -28,23 +28,12 @@ description: >-                        # used by seo meta and the atom feed
 url: ''
 
 github:
-  username: github_username             # change to your github username
-
-twitter:
-  username: twitter_username            # change to your twitter username
+  username: obj2-unahur            # change to your github username
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: Equipo de Programación con Objetos 2                  # it will shows as the copyright owner in Footer
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/obj2-unahur       # change to your github homepage
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
@@ -81,14 +70,14 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: /assets/img/logo.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
 disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  comments: true  # boolean type, the global switch for posts comments.
+  shortname: 'obj2-unahur'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 paginate: 10
 
@@ -173,3 +162,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jemoji
