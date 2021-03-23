@@ -10,6 +10,10 @@ $(function() {
 
   let intervalId = void 0;
 
+  function toTimeAgoString(value, unit) {
+    return `hace ${value} ${unit}${value > 1 ? "s" : ""}`;
+  }
+
   function timeago(iso, prepData) {
     let now = new Date();
     let past = new Date(iso);
@@ -17,7 +21,7 @@ $(function() {
 
     if (past.getFullYear() !== now.getFullYear()) {
       toRefresh -= 1;
-      return prep + past.toLocaleString("en-US", {
+      return prep + past.toLocaleString("es-AR", {
         year: "numeric",
         month: "short",
         day: "numeric"
@@ -26,7 +30,7 @@ $(function() {
 
     if (past.getMonth() !== now.getMonth()) {
       toRefresh -= 1;
-      return prep + past.toLocaleString("en-US", {
+      return prep + past.toLocaleString("es-AR", {
         month: "short",
         day: "numeric"
       });
@@ -37,20 +41,20 @@ $(function() {
     let day = Math.floor(seconds / 86400);
     if (day >= 1) {
       toRefresh -= 1;
-      return day + " day" + (day > 1 ? "s" : "") + " ago";
+      return toTimeAgoString(day, 'día');
     }
 
     let hour = Math.floor(seconds / 3600);
     if (hour >= 1) {
-      return hour + " hour" + (hour > 1 ? "s" : "") + " ago";
+      return toTimeAgoString(hour, 'hora');
     }
 
     let minute = Math.floor(seconds / 60);
     if (minute >= 1) {
-      return minute + " minute" + (minute > 1 ? "s" : "") + " ago";
+      return toTimeAgoString(minute, 'minuto');
     }
 
-    return (isLastmod ? "just" : "Just") + " now";
+    return (isLastmod ? "recién" : "Recién");
   }
 
   function updateTimeago() {

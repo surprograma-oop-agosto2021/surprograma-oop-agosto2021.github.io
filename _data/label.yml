@@ -1,19 +1,25 @@
 # The label text of site.
 
+home: Inicio
+
 panel:
-  lastmod: Recent Update
-  trending_tags: Trending Tags
-  toc: Contents
+  lastmod: Últimas actualizaciones
+  trending_tags: Etiquetas más usadas
+  toc: Contenidos
 
 post:
-  relate_posts: Further Reading
-  share: Share
+  relate_posts: Seguir leyendo
+  posts: Artículos
+  share: Compartir
   button:
-    next: Newer
-    previous: Older
+    next: Siguientes
+    previous: Anteriores
+  licensed_under: Este artículo se publica bajo la licencia
 
-search_hint: Search   # text show on search bar
+search_hint: Buscar   # text show on search bar
 
 pin_prompt: Pinned    # pinned prompt
 
-read_time_unit: min   # see posts' time to read
+read_time_unit: minutos   # see posts' time to read
+
+words: palabras
