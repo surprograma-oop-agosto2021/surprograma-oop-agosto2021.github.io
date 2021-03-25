@@ -108,7 +108,7 @@ defaults:
       path: ''          # An empty string here means all files in the project
       type: posts
     values:
-      layout: post
+      layout: articulo
       comments: true    # Enable comments in posts.
       toc: true         # Display TOC column in posts.
   -
@@ -155,8 +155,8 @@ exclude:
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
-    category: category
-    tag: tag
+    category: categoria
+    tag: etiqueta
   permalinks:
     tag: /etiquetas/:name/
     category: /categorias/:name/
