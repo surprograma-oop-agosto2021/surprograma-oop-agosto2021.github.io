@@ -1,5 +1,8 @@
 name: 'Automatic build'
 on:
+  pull_request:
+    branches:
+      - master
   push:
     branches:
       - master
@@ -58,6 +61,7 @@ jobs:
           bash tools/test.sh
 
       - name: Deploy
+        if: github.ref == 'refs/heads/master'
         run: |
           if [[ -n $BASE_URL ]]; then
             mv _site$BASE_URL _site-rename
