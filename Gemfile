@@ -5,6 +5,7 @@ source "https://rubygems.org"
 gemspec
 
 gem 'jemoji'
+gem 'jekyll-extlinks'
 
 group :test do
   gem "html-proofer", "~> 3.18"

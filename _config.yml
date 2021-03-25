@@ -161,5 +161,9 @@ jekyll-archives:
     tag: /etiquetas/:name/
     category: /categorias/:name/
 
+extlinks:
+  attributes: {rel: nofollow, target: _blank}
+
 plugins:
   - jemoji
+  - jekyll-extlinks

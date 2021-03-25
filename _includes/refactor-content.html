@@ -2,7 +2,7 @@
   Refactor the HTML structure.
 -->
 
-{% assign _content = include.content %}
+{% assign _content = include.content | extlinks %}
 
 <!--
   In order to allow a wide table to scroll horizontally,
