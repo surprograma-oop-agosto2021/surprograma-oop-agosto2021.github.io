@@ -1,0 +1,55 @@
+---
+title: Quiénes somos
+icon: fas fa-info
+order: 105
+profes:
+  - nombre: Federico Aloi
+    github: faloi
+    instagram: surprograma
+    youtube: UCfrRa43tBrOYYYfgJqsJ7qg
+    bio: >
+      Docente y programador egresado de UNQ. Estudio Educación en UNaHur y estoy construyendo una casa rodante para viajar por Latinoamérica. :earth_americas: :minibus:
+  - nombre: Rodrigo Alfonso
+    github: rodri042
+    web: https://r-labs.io
+    bio: >
+      Ingeniero en Sistemas dedicado a la programación. Amante de los distintos subgéneros del metal, los videojuegos y la tecnología. 🤟🏽 :space_invader: 🖥
+  - nombre: Pablo Gerez
+    github: gerezpablo
+    instagram: pabloc_gerez
+    bio: >
+      Estudiante de tercer año, casi técnico informático. Fui ayudante en Objetos 1 y parte del equipo desarrollador de [Turnos UNaHur](https://turnos.unahur.edu.ar). Banco a la pizza :pizza: y todo género musical. :musical_note:
+---
+
+<div class="card-deck">
+  {% for p in page.profes %}
+    <div class="card">
+      {% assign foto = '/assets/img/profes/' | append: p.nombre | append: '.jpg' %}
+      <img src="{{ foto | relative_url }}" class="card-img-top" alt="avatar">
+      <div class="card-body">
+        <h5 class="card-title">{{ p.nombre }}</h5>
+        <p class="card-text">{{ p.bio | markdownify }}</p>
+      </div>
+      <div class="card-footer">
+        <a class="img-hyperlink" href="{{ 'https://github.com/' | append: p.github }}">
+          <i class="fab fa-2x fa-github"></i>
+        </a>
+        {% if p.instagram %}
+          <a class="ml-2 img-hyperlink" href="{{ 'https://instagram.com/' | append: p.instagram }}">
+            <i class="fab fa-2x fa-instagram"></i>
+          </a>
+        {% endif %}
+        {% if p.youtube %}
+          <a class="ml-2 img-hyperlink" href="{{ 'https://www.youtube.com/channel/' | append: p.youtube }}">
+            <i class="fab fa-2x fa-youtube"></i>
+          </a>
+        {% endif %}
+        {% if p.web %}
+          <a class="ml-2 img-hyperlink" href="{{ p.web }}">
+            <i class="fas fa-2x fa-globe"></i>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
