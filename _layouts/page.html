@@ -17,7 +17,9 @@ layout: default
     </div> <!-- #page -->
   </div><!-- .col-12 -->
 
-  {% include panel.html %}
+  {%- unless page.hide_panel -%}
+    {% include panel.html %}
+  {%- endunless -%}
 
 </div>
 
