@@ -2,7 +2,7 @@
 name: Comunidad
 title: Aportes de la comunidad
 icon: fas fa-users
-order: 5
+order: 3
 ---
 
 Concentraremos aquí distintos aportes que pueden servir para ampliar la mirada. No necesariamente van a ser cosas 100% relacionadas con la materia. :stuck_out_tongue:

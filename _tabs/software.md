@@ -1,7 +1,7 @@
 ---
 title: Software
 icon: fas fa-terminal
-order: 4
+order: 2
 ---
 
 ## IntelliJ IDEA
