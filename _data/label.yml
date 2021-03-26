@@ -21,6 +21,6 @@ search_hint: Buscar   # text show on search bar
 
 pin_prompt: Fijado    # pinned prompt
 
-read_time_unit: minutos   # see posts' time to read
+read_time_unit: min   # see posts' time to read
 
 words: palabras
