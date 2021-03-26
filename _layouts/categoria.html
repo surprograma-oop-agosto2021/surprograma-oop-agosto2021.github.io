@@ -10,6 +10,10 @@ layout: page
     <span class="lead text-muted pl-2">{{ page.posts | size }}</span>
   </h1>
 
+  {% if page.title == 'Apuntes' %}
+    <h2>De la materia</h2>
+  {% endif %}
+
   <ul class="post-content pl-0">
     {% assign post_long_df = site.data.date_format.post.long | default: '%b %e, %Y' %}
 
@@ -21,4 +25,9 @@ layout: page
     </li>
     {% endfor %}
   </ul>
+
+  {% if page.title == 'Apuntes' %}
+    {% capture otros_apuntes %}{% include otros-apuntes.md %}{% endcapture %}
+    {{ otros_apuntes | markdownify }}
+  {% endif %}
 </div>
