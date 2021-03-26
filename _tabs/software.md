@@ -1,7 +1,7 @@
 ---
 title: Software
 icon: fas fa-terminal
-order: 2
+order: 3
 ---
 
 ## <i class="fas fa-file-code"></i> IntelliJ IDEA
