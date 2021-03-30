@@ -1,6 +1,6 @@
 ---
 title: 'Contrato pedagógico'
-date: 2020-08-28
+date: 2020-03-26
 author: faloi
 categories: [Clases]
 tags: []
