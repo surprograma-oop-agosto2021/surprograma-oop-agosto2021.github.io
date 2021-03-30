@@ -1,7 +1,7 @@
-<h2>Videos</h2>
+<h2>Videos de la clase</h2>
 <div class="row">
   {% for v in include.videos %}
-    <div class="col-md-6 mb-4">
+    <div class="col-lg-4 col-md-6 mb-4">
       <div class="card h-100">
         {%- if v.id -%}
           <iframe class="post-content-video" src="https://www.youtube.com/embed/{{ v.id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

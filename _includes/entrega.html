@@ -11,11 +11,11 @@
           <p class="card-text">{{ e.descripcion }}</p>
           <a href="{{ e.classroom }}" class="card-link">
             <i class="fas fa-book"></i>
-            Clonar el ejercicio
+            {{ site.data.label.entrega.clonar }}
           </a>
           <a href="https://github.com/{{ e.repo }}" class="card-link">
             <i class="fab fa-github"></i>
-            Ver enunciado
+            {{ site.data.label.entrega.ver_enunciado }}
           </a>
         </div>
       </div>

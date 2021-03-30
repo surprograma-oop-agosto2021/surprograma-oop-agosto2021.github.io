@@ -1,0 +1,42 @@
+<div class="post-preview">
+  <h3>
+    <a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a>
+  </h3>
+
+  <div class="post-content">
+    <p>
+      {% include no-linenos.html content=include.post.content %}
+      {{ content | markdownify | strip_html | truncate: 200 }}
+    </p>
+  </div>
+
+  <div class="post-meta text-muted d-flex justify-content-between">
+
+    <div>
+      <!-- posted date -->
+      <i class="far fa-calendar fa-fw"></i>
+      {% include timeago.html date=include.post.date tooltip=true %}
+
+      <!-- time to read -->
+      <i class="far fa-clock fa-fw"></i>
+      {% include read-time.html content=include.post.content %}
+
+      <!-- page views -->
+      {% if site.google_analytics.pv.enabled %}
+      <i class="far fa-eye fa-fw"></i>
+      <span id="pv_{{-include.post.title-}}" class="pageviews">
+        <i class="fas fa-spinner fa-spin fa-fw"></i>
+      </span>
+      {% endif %}
+    </div>
+
+    {% if include.post.pin %}
+    <div class="pin">
+      <i class="fas fa-thumbtack fa-fw"></i>
+      <span>{{ site.data.label.pin_prompt | default: 'Pinned' }}</span>
+    </div>
+    {% endif %}
+
+  </div> <!-- .post-meta -->
+
+</div> <!-- .post-review -->
