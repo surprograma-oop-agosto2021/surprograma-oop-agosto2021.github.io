@@ -50,6 +50,9 @@ layout: default
 
         {{ content }}
 
+        {% if page.videos %}
+          {% include videos.html videos=page.videos %}
+        {% endif %}
       </div>
 
       <div class="post-tail-wrapper text-muted">
