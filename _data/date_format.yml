@@ -5,3 +5,5 @@ tooltip: "%A %e de %B de %Y, %H:%M"
 post:
   long: "%e de %B, %Y"
   short: "%e de %B"
+
+entrega: "%A %e de %B a las %H:%Mhs"

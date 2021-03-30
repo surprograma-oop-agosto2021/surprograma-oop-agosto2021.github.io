@@ -111,6 +111,12 @@
     background-color: var(--card-bg);
   }
 
+  .bs-callout {
+    border-right-color: var(--card-border-color);
+    border-top-color: var(--card-border-color);
+    border-bottom-color: var(--card-border-color);
+  }
+
   .categories {
     .card-header {
       background-color: var(--card-header-bg);

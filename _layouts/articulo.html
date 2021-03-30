@@ -53,6 +53,10 @@ layout: default
         {% if page.videos %}
           {% include videos.html videos=page.videos %}
         {% endif %}
+
+        {% if page.entrega %}
+          {% include entrega.html entrega=page.entrega %}
+        {% endif %}
       </div>
 
       <div class="post-tail-wrapper text-muted">
