@@ -4,6 +4,7 @@ date: 2020-08-28
 author: pablo
 categories: [Apuntes]
 tags: [kotlin]
+summary: Guía rapidísima sobre manejo de fechas en Kotlin
 ---
 
 Básicamente son clases nativas de Java 8, que sirven para representar momentos en el tiempo. Como hemos dicho en alguna otra oportunidad, en Kotlin se puede usar cualquier clase de Java, y por eso es que Kotlin no incluye una API propia para manejar fechas.

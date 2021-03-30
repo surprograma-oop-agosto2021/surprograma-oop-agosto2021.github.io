@@ -50,6 +50,10 @@ layout: default
 
         {{ content }}
 
+        {% if page.lecturas %}
+          {% include lecturas.html lecturas=page.lecturas %}
+        {% endif %}
+
         {% if page.videos %}
           {% include videos.html videos=page.videos %}
         {% endif %}

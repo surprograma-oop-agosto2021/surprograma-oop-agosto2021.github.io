@@ -4,6 +4,8 @@ date: 2021-03-31
 author: faloi
 categories: [Clases]
 tags: [kotlin, wollok]
+lecturas:
+  - id: wollok-a-kotlin
 videos:
   - nombre: Presentación
     descripcion: >
