@@ -52,6 +52,11 @@
   }
 }
 
+.post-content-video {
+  height: 15em;
+  object-fit: none;
+}
+
 .post-tail-wrapper {
   margin-top: 6rem;
   border-bottom: 1px double var(--main-border-color);

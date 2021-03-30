@@ -4,6 +4,7 @@ date: 2020-08-21
 author: faloi
 categories: [Apuntes]
 tags: [kotlin, wollok]
+summary: Pequeño apunte-machete con las diferencias y similitudes entre ambos lenguajes
 ---
 
 Cómo se menciona en el titulo, esta guía busca dar un primer acercamiento hacia el lenguaje Kotlin, comparándolo con Wollok, lenguaje que probablemente recuerden de Objetos 1.

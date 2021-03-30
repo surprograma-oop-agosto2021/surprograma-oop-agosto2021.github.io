@@ -1,0 +1,24 @@
+<h2>Ejercicios obligatorios</h2>
+<div class="bs-callout bs-callout-warning">
+  :point_up: La fecha límite para la entrega de esta clase es el <strong>{% include translated_date.html date=include.entrega.fecha format=site.data.date_format.entrega lang='es' %}</strong>
+</div>
+<div class="row">
+  {% for e in include.entrega.ejercicios %}
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">{{ e.nombre }}</h5>
+          <p class="card-text">{{ e.descripcion }}</p>
+          <a href="{{ e.classroom }}" class="card-link">
+            <i class="fas fa-book"></i>
+            {{ site.data.label.entrega.clonar }}
+          </a>
+          <a href="https://github.com/{{ e.repo }}" class="card-link">
+            <i class="fab fa-github"></i>
+            {{ site.data.label.entrega.ver_enunciado }}
+          </a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
