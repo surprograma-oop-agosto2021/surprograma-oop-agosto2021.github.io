@@ -2,7 +2,7 @@
 title: 'LocalDateTime en un minuto'
 date: 2020-08-28
 author: pablo
-categories: [Apuntes]
+categories: [Apuntes, Sarasa]
 tags: [kotlin]
 ---
 
