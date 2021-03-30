@@ -1,6 +1,6 @@
 ---
 title: 'Clase 1 - Introducción a Kotlin'
-date: 2021-03-31
+date: 2021-03-30
 author: faloi
 categories: [Clases]
 tags: [kotlin, wollok]
