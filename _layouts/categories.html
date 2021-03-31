@@ -51,7 +51,7 @@ layout: page
         <span class="text-muted small font-weight-light">
           {% if sub_categories_size > 0 %}
             {{ sub_categories_size }}
-            {% if sub_categories_size > 1 %}categories{% else %}category{% endif %},
+            {% if sub_categories_size > 1 %}categorías{% else %}categoría{% endif %},
           {% endif %}
             {{ top_posts_size }}
             artículo{% if top_posts_size > 1 %}s{% endif %}
@@ -65,10 +65,6 @@ layout: page
         class="category-trigger hide-border-bottom">
         <i class="fas fa-fw fa-angle-down"></i>
       </a>
-      {% else %}
-      <span data-toggle="collapse" class="category-trigger hide-border-bottom disabled">
-        <i class="fas fa-fw fa-angle-right"></i>
-      </span>
       {% endif %}
 
     </div> <!-- .card-header -->
@@ -80,7 +76,7 @@ layout: page
         {% for sub_category in sub_categories %}
         <li class="list-group-item">
           <i class="far fa-folder fa-fw"></i>
-          <a href="{{ site.baseurl }}/categories/{{ sub_category | slugify | url_encode }}/"
+          <a href="{{ site.baseurl }}/categorias/{{ sub_category | slugify | url_encode }}/"
             class="ml-1 mr-2">{{ sub_category }}</a>
           {% assign posts_size = site.categories[sub_category] | size %}
           <span class="text-muted small font-weight-light">{{ posts_size }}
