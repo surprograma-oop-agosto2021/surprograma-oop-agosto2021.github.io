@@ -7,7 +7,8 @@ tags: [kotlin, wollok]
 lecturas:
   - id: wollok-a-kotlin
 videos:
-  - nombre: Presentación
+  - id: FrvAStUN1Lw
+    nombre: Presentación
     descripcion: >
       Clase en vivo de apertura de la materia.
   - id: ldW5u6ugpus
