@@ -15,6 +15,10 @@ videos:
     nombre: Cómo clonar un proyecto en el IntelliJ Idea
     descripcion: >
       Aunque fue grabado con el viejo sitio de la materia, puede verse todo el proceso que va desde clonar el ejercicio hasta correr los tests en el IntelliJ Idea.
+  - id: MzOR9k-57ck
+    nombre: Flujo de trabajo completo con Git desde el IntelliJ Idea
+    descripcion: >
+      Cómo clonar, commitear y pushear 100% desde el IDE, sin abrir para nada la consola.
   - id: XsA-zNikAQU
     nombre: Migrando Vendedores de Wollok a Kotlin
     descripcion: >
