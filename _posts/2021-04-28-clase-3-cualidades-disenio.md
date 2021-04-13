@@ -13,10 +13,6 @@ videos:
     nombre: ¿Qué son y para qué sirven las CUALIDADES DE DISEÑO DE SOFTWARE?
     descripcion: >
       Lo mismo que dice el apunte, pero explicado durante una clase en vivo del año pasado.
-  - id: YdSQ7UEAh5U
-    nombre: "Tipos anulables en Kotlin: ¿para qué sirve el signo de pregunta?"
-    descripcion: >
-      Seguramente viste que en Kotlin existen tipos métodos que devuelven `Int?` o `Vendedor?`. En este video te explicamos qué son y para qué sirven estos tipos.
 ---
 
 (En construcción)
