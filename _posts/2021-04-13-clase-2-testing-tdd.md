@@ -33,6 +33,11 @@ lecturas:
     title: Ejemplo de elaboración de casos de prueba
     summary: >
       Con un pequenísimo enunciado, el artículo cuenta paso a paso cómo armar los escenarios de prueba. Ojo :eyes:: las porciones de código están hechas para Java y Junit, tecnología que no utilizamos en la materia. Les queda como tarea pensar cómo traducir eso a Kotlin y Kotest.
+  - url: https://docs.google.com/document/d/1Q_v48gZfRmVfLMvC0PBpmtZyMoALbh11AwmEllP__eY/edit#heading=h.dc2bt32tzcjz
+    title: Introducción al Testeo Unitario Automatizado
+    opcional: true
+    summary: >
+      Apunte basado en Wollok, que sirve como introducción al testeo automatizado en general. Omitiendo los detalles sobre Wollok, sugerimos su lectura para responder preguntas como ¿por qué es recomendable hacer pruebas unitarias? ¿cómo hacer buenos tests? ¿cuántas cosas debo probar en cada test?
 entrega:
   fecha: "2021-04-20 23:59"
   ejercicios:
