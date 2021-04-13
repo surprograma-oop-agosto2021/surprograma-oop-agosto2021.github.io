@@ -3,7 +3,7 @@ title: 'Clase 2 - Pruebas automatizadas y TDD'
 date: 2021-04-13
 author: faloi
 categories: [Clases]
-tags: [kotlin, wollok]
+tags: [kotlin, tdd, pruebas]
 videos:
   - nombre: Clase en vivo del 14 de Abril
     descripcion: >
@@ -45,11 +45,19 @@ entrega:
     descripcion: >
       Aunque el enunciado no lo dice, es **obligatorio** resolver el ejercicio utilizando la práctica TDD. Como siempre, aconsejamos resolver de a un requerimiento a la vez, en este caso comenzando por sus pruebas. Recuerden que este trabajo debe realizarse en parejas, que deben estar conformadas _antes_ de clonar el ejercicio, ya que el sistema arma un repositorio para cada equipo.
     repo: obj2-unahur/caralibro
-    classroom: https://classroom.github.com/a/LDdqtwJk
+    classroom: https://classroom.github.com/g/LDdqtwJk
 ---
 
 En esta clase hablaremos sobre pruebas automatizadas y [_test driven development (TDD)_](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas), una práctica que nos invita a desarrollar escribiendo primero las pruebas y luego el código.
 
-Probablemente, la técnica que hasta hoy conocen (y practican) consiste en escribir código y luego, con algo de suerte, probarlo para ver si efectivamente hace lo que tiene que hacer. A su vez, esta prueba puede ser **manual** (por ejemplo, mediante un _REPL_ o sencillamente apretando botones) o **automatizada** (mediante pruebas unitarias, end-to-end, lo que sea).
+## Objetivos de la clase
+
+* Conocer la práctica TDD y sus principales lineamientos.
+* Aplicar la práctica TDD en un ejercicio de programación.
+* Adquirir herramientas para poder elaborar escenarios de prueba.
+
+## ¿Primero las pruebas o el código?
+
+Probablemente, la técnica que hasta hoy conocen (y practican) a la hora de programar consiste en escribir código y luego, con algo de suerte, probarlo para ver si efectivamente hace lo que tiene que hacer. A su vez, esta prueba puede ser **manual** (por ejemplo, mediante un _REPL_ o sencillamente apretando botones) o **automatizada** (mediante pruebas unitarias, end-to-end, lo que sea).
 
 Esta clase les propone algo que puede resultar disruptivo y, por qué no, hasta molesto (al menos al principio): comenzar por las pruebas y **luego** escribir el código necesario para que ellas pasen. No ahondaremos aquí en las ventajas y desventajas de la práctica (hay mucho escrito [en internet](https://is.gd/pDaLjc)) pero sí diremos que TDD es una muy buena forma de encarar un problema que no tenemos mucha idea de cómo resolver, y de poner especial atención a las pruebas automatizadas... lo cual nos interesa especialmente en este momento. :smiley:
