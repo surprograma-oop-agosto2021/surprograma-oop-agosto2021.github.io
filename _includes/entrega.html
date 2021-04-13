@@ -8,7 +8,7 @@
       <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">{{ e.nombre }}</h5>
-          <p class="card-text">{{ e.descripcion }}</p>
+          <p class="card-text">{{ e.descripcion | markdownify }}</p>
           <a href="{{ e.classroom }}" class="card-link">
             <i class="fas fa-book"></i>
             {{ site.data.label.entrega.clonar }}
