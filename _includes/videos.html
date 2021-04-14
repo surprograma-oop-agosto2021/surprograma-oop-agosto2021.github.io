@@ -9,6 +9,9 @@
           <img class="post-content-video" src="/assets/img/trabajando.png">
         {%- endif -%}
         <div class="card-body">
+            {% if v.opcional %}
+              {% include opcional-badge.html %}
+            {% endif %}
             <h5 class="card-title">{{ v.nombre }}</h5>
             {%- unless v.id -%}
               <h6 class="card-subtitle text-muted">:construction: Video en construcción...</h6>

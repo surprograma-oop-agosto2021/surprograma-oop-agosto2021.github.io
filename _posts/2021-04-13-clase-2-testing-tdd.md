@@ -21,10 +21,12 @@ videos:
     descripcion: >
       Aclaraciones varias sobre la sintaxis de Kotlin, que les van a servir para este y los próximos ejercicios.
   - id: YdSQ7UEAh5U
+    opcional: true
     nombre: Tipos anulables
     descripcion: >
       Seguramente viste que en Kotlin existen tipos métodos que devuelven `Int?` o `Vendedor?`. En este video te explicamos qué son y para qué sirven estos tipos.
   - id: q5uOdrwR3Lw
+    opcional: true
     nombre: Cómo ver las correcciones en GitHub
     descripcion: >
       Gracias a Pablo Méndez, les acercamos un pequeño video-tutorial de cómo ver, comentar o protestar por las correcciones que les hacemos.
