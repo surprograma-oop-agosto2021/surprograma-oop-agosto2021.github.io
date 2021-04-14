@@ -33,7 +33,7 @@ lecturas:
     title: Ejemplo de elaboración de casos de prueba
     summary: >
       Con un pequenísimo enunciado, el artículo cuenta paso a paso cómo armar los escenarios de prueba. Ojo :eyes:: las porciones de código están hechas para Xtend y Junit, tecnología que no utilizamos en la materia. Les queda como tarea pensar cómo traducir eso a Kotlin y Kotest.
-  - url: https://docs.google.com/document/d/1Q_v48gZfRmVfLMvC0PBpmtZyMoALbh11AwmEllP__eY/edit#heading=h.dc2bt32tzcjz
+  - url: https://docs.google.com/document/d/1Q_v48gZfRmVfLMvC0PBpmtZyMoALbh11AwmEllP__eY/edit
     title: Introducción al Testeo Unitario Automatizado
     opcional: true
     summary: >
