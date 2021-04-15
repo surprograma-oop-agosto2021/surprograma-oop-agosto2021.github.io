@@ -25,6 +25,11 @@ videos:
     nombre: Tipos anulables
     descripcion: >
       Seguramente viste que en Kotlin existen tipos métodos que devuelven `Int?` o `Vendedor?`. En este video te explicamos qué son y para qué sirven estos tipos.
+  - id: U-U-qiV3P0k
+    opcional: true
+    nombre: Resolución del ejercicio "Vendedores"
+    descripcion: >
+      Una solución posible del ejercicio de la clase 1, que puede servirles también para ver a alguien más programando en Kotlin. Por motivos ajenos a la administración, solo está resuelto el código, no hay ningún test ni en el video ni en GitHub. :man_shrugging:
   - id: q5uOdrwR3Lw
     opcional: true
     nombre: Cómo ver las correcciones en GitHub
