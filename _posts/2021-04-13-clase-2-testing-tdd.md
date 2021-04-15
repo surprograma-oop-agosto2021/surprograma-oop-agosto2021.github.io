@@ -41,7 +41,7 @@ lecturas:
     summary: >
       Apunte basado en Wollok, que sirve como introducción al testeo automatizado en general. Omitiendo los detalles sobre Wollok, sugerimos su lectura para responder preguntas como ¿por qué es recomendable hacer pruebas unitarias? ¿cómo hacer buenos tests? ¿cuántas cosas debo probar en cada test?
 entrega:
-  fecha: "2021-04-20 23:59"
+  fecha: "2021-04-27 23:59"
   ejercicios:
   - nombre: Caralibro
     descripcion: >
