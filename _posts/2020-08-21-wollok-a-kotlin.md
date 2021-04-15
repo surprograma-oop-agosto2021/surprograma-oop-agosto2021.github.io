@@ -169,3 +169,41 @@ Están también los clásicos `map`, `filter`, `reduce` y muchísimos métodos m
 
 #### Exclusivos para conjuntos
 - `toList()` devuelve una lista con los mismos elementos que tenga el conjunto.
+
+## Manejo de errores
+
+Para lanzar un error que corte la ejecución, en Wollok podemos hacer:
+
+```wollok
+method volar() {
+  if (energia < 0) {
+    self.error("No queda suficiente energía para volar")
+  }
+  
+  energia -= 1
+}
+```
+
+En Kotlin, en vez de ser un método, hay una función global llamada `error`. El ejemplo se traduce a:
+
+```kotlin
+fun volar() {
+  if (energia < 0) {
+    error("No queda suficiente energía para volar")
+  }
+  
+  energia -= 1
+}
+```
+
+Otra forma de lanzar errores es usando `check`, que _chequea_ que una condición se cumpla, y **de lo contrario** lance el error especificado:
+
+```kotlin
+fun volar() {
+  check (energia >= 0) {
+    "No queda suficiente energía para volar"
+  }
+  
+  energia -= 1
+}
+```
