@@ -5,7 +5,8 @@ author: faloi
 categories: [Clases]
 tags: [kotlin, tdd, pruebas]
 videos:
-  - nombre: Clase en vivo del 14 de Abril
+  - id: DxGPT2v19ac
+    nombre: Encuentro sincrónico del 14 de Abril
     descripcion: >
       Hablamos de los errores comunes de la clase anterior y presentamos esta clase.
   - id: 8MGtLPFtbQ8
