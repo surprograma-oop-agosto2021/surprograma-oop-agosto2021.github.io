@@ -179,7 +179,7 @@ method volar() {
   if (energia < 0) {
     self.error("No queda suficiente energía para volar")
   }
-  
+
   energia -= 1
 }
 ```
@@ -191,19 +191,21 @@ fun volar() {
   if (energia < 0) {
     error("No queda suficiente energía para volar")
   }
-  
+
   energia -= 1
 }
 ```
 
-Otra forma de lanzar errores es usando `check`, que _chequea_ que una condición se cumpla, y **de lo contrario** lance el error especificado:
+Otra forma de lanzar errores es usando `check`, que _chequea_ que una condición se cumpla, y **de lo contrario** arroja un error con el mensaje especificado:
 
 ```kotlin
 fun volar() {
   check (energia >= 0) {
     "No queda suficiente energía para volar"
   }
-  
+
   energia -= 1
 }
 ```
+
+Queda al gusto de ustedes decidir cuál de las dos variantes utilizar. :smiley:
