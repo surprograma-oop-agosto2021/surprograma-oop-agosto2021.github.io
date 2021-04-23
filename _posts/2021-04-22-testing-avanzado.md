@@ -1,5 +1,5 @@
 ---
-title: "Testing avanzado"
+title: "Ejemplo de elaboración de casos de prueba"
 date: 2021-04-22
 author: GerezPablo
 categories: [Apuntes]
@@ -10,7 +10,6 @@ summary: Pequeño apunte con pautas y ejemplos para desarrollar los casos de pru
 # Testeo unitario avanzado
 
 Este artículo presenta algunas guías para desarrollar los casos de prueba, considerando que ya tienen una base de testeo unitario automatizado.
-Si estás buscando un apunte, te recomendamos [Xtend](https://docs.google.com/document/d/1zj-H_qPbUDvWsWhV2YLaPsnrI0MIkCuoeK_ilzSnxVI/edit?usp=sharing)
 
 # Ejemplo
 
