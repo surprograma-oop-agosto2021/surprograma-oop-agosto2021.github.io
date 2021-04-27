@@ -1,6 +1,6 @@
 ---
 title: 'Clase 3 - Hablemos de diseño de software'
-date: 2021-04-28
+date: 2021-04-27
 author: faloi
 categories: [Clases]
 tags: [kotlin, diseño, patrones de diseño]
