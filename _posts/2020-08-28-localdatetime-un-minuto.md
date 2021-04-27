@@ -2,7 +2,7 @@
 title: 'LocalDateTime en un minuto'
 date: 2020-08-28
 author: pablo
-categories: [Apuntes, Sarasa]
+categories: [Apuntes]
 tags: [kotlin]
 summary: Guía rapidísima sobre manejo de fechas en Kotlin
 ---
