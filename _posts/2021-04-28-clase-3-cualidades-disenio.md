@@ -52,12 +52,12 @@ entrega:
   ejercicios:
   - nombre: Buscando defectos en el ejercicio "Semillas al viento"
     repo: obj2-unahur/semillas-al-viento-defectos
-    classroom: https://classroom.github.com/g/LDdqtwJk
-  - nombre: Mozo, ¡la cuenta!
-    repo: obj2-unahur/semillas-al-viento-defectos
-    classroom: https://classroom.github.com/g/LDdqtwJk
+    classroom: https://classroom.github.com/g/vrwF998_
+  - nombre: Los socios
+    repo: obj2-unahur/los-socios
+    classroom: https://classroom.github.com/g/Nm6s3XGE
     descripcion: >
-      Micro ejercicio para terminar de entender el patrón Strategy. Al ser tan chico, recomendamos resolverlo de manera sincrónica - una buena excusa para probar el _Code with me_. :wink:
+      En este micro-ejercicio hay que aplicar **sí o sí** los patrones Strategy y Singleton. Al ser tan chico, recomendamos resolverlo de manera sincrónica - una buena excusa para probar el _Code with me_. :wink:
 ---
 
 
@@ -79,4 +79,4 @@ Por todo esto, la propuesta de esta clase tiene que ver sobre todo con leer dos 
 
 Probablemente ya hayan escuchado nombrarlos, probablemente estén deseando aprenderlos o tal vez nada de eso ocurra y tendrán la primicia al leer el apunte. Lo cierto es que estos patrones están muy difundidos en la industria y creemos que es interesante conocerlos, no sin cierto escepticismo a la hora de aplicarlos. Profundizarán sobre este aspecto con la lectura del apunte correspondiente.
 
-Para ir entrando en calor, les dejamos dos micro-ejercicios para trabajar con dos patrones que ya conocen: el `Strategy` y el `Singleton`.
+Para ir entrando en calor, les dejamos un micro-ejercicio para aplicar dos patrones que ya conocen: el `Strategy` y el `Singleton`.
