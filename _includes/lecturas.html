@@ -12,8 +12,8 @@
         {% if it.opcional %}
           {% include opcional-badge.html %}
         {% endif %}
-        <a href="{{ post.url }}">{{ post.title }}.</a>
-        {{ post.summary }}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        {{ post.summary | markdownify }}
       </li>
     {% endfor %}
   </ul>
