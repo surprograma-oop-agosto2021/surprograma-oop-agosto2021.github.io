@@ -91,6 +91,51 @@ Algunas diferencias:
 * en Kotlin, no se escribe el `new`;
 * en Kotlin, no es necesario poner los nombres de los atributos.
 
+## Objetos autodefinidos
+
+Para objetos únicos que tienen que ser conocidos por toda la aplicación, podemos crear _objetos autodefinidos_. Es decir, objetos que simplemente existen y no hace falta instanciarlos. En nuestro ejemplo, podemos usarlos para definir los tipos de alimentos.
+
+```kotlin
+object Alpiste {
+  val energia = 1
+}
+
+object Girasol {
+  val energia = 4
+}
+```
+> Esto es casi igual que en Wollok, solo que acá escribimos los nombres con Mayúsculas.
+
+## Interfaces
+
+Como Kotlin utiliza tipado estático, si queremos tratar _polimórficamente_ los dos objetos de arriba, necesitamos que tengan un tipo en común. Para esto podemos crear una interfaz, que describe un _contrato_ a cumplir:
+
+```kotlin
+interface Alimento {
+  val energia: Int
+}
+
+object Alpiste : Alimento {
+  override val energia = 1
+}
+
+object Girasol : Alimento {
+  override val energia = 4
+}
+```
+
+- El `:` en este caso indica que nuestros objetos _implementan_ la interfaz `Alimento`.
+- El `override` nos lo obliga a poner el IDE para aclarar que estamos hablando de una propiedad definida _más arriba_.
+
+Luego, en `Ave` ya podemos definir:
+
+```kotlin
+fun alimentar(alimento: Alimento) {
+  energia += alimento.energia
+}
+```
+> `Ave` admite cualquier objeto que implemente la interfaz `Alimento`
+
 ## Colecciones
 
 ### Dos sabores: mutables o inmutables
