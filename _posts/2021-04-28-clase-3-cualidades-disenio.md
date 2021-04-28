@@ -53,6 +53,8 @@ entrega:
   - nombre: Buscando defectos en el ejercicio "Semillas al viento"
     repo: obj2-unahur/semillas-al-viento-defectos
     classroom: https://classroom.github.com/g/vrwF998_
+    descripcion: >
+      Un ejercicio distinto, en el que van a tener que leer código hecho por alguien más y criticarlo según las cualidades que nos interesan.
   - nombre: Los socios
     repo: obj2-unahur/los-socios
     classroom: https://classroom.github.com/g/Nm6s3XGE
@@ -60,6 +62,7 @@ entrega:
       En este micro-ejercicio hay que aplicar **sí o sí** los patrones Strategy y Singleton. Al ser tan chico, recomendamos resolverlo de manera sincrónica - una buena excusa para probar el _Code with me_. :wink:
 ---
 
+En esta clase introduciremos dos aspectos que seguiremos trabajando durante toda la materia: cualidades de diseño de software y patrones de diseño orientado a objetos.
 
 ## Objetivos de la clase
 
