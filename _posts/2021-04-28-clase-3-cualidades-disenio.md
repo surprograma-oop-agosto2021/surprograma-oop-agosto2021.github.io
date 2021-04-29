@@ -38,6 +38,10 @@ videos:
     nombre: ¿Cómo implementar el patrón Singleton en Kotlin?
     descripcion: >
       Un nombre rimbombante para algo que ya sabían hacer desde Objetos 1: crear un objeto sin clase. :stuck_out_tongue:
+  - id: 2RrkG0nCrBw
+    nombre: Companion objects en Kotlin, o cómo poner código en las clases
+    descripcion: >
+      Una forma de resolver problemas como el factor de compresión de las fotos en el ejercicio del Caralibro.
   - id: NGUVwHb-1Fk
     opcional: true
     nombre: ¿Qué son y para qué sirven las cualidades de diseño de software?
