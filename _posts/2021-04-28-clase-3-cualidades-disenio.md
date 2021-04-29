@@ -18,7 +18,8 @@ lecturas:
     title: Patrón "Singleton"
     summary: Otro patrón que ya conocían, pero con otro nombre.
 videos:
-  - nombre: Encuentro sincrónico del 28 de Abril
+  - id: JfUC3NskAQ8
+    nombre: Encuentro sincrónico del 28 de Abril
     descripcion: >
       Hablamos de los errores comunes de la clase anterior y presentamos esta clase.
   - id: ibmQkhAzk5I
