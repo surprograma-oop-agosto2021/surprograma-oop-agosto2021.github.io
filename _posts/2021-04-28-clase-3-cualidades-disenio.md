@@ -29,7 +29,7 @@ videos:
   - id: AuInib0a4h0
     nombre: "Code with me: trabajo colaborativo remoto en el IntelliJ Idea"
     descripcion: >
-      Una linda funcionalidad .
+      Una linda funcionalidad que sumó hace poco el IntelliJ, que nos permite programar en equipo _casi_ como si estuvieramos al lado.
   - id: VQ8V0ym2JSo
     nombre: Breve explicación del patrón Strategy
     descripcion: >
