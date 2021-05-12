@@ -5,8 +5,7 @@ author: faloi
 categories: [Clases]
 tags: [kotlin, diseño]
 videos:
-  - id: JfUC3NskAQ8
-    nombre: Encuentro sincrónico del 12 de Mayo
+  - nombre: Encuentro sincrónico del 12 de Mayo
 entrega:
   fecha: "2021-05-25 23:59"
   ejercicios:
