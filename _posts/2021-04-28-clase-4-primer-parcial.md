@@ -7,6 +7,8 @@ tags: [kotlin, diseño]
 videos:
   - id: 1wocpTNQ_yw
     nombre: Encuentro sincrónico del 12 de Mayo
+lecturas:
+  - id: localdatetime-un-minuto
 entrega:
   fecha: "2021-05-25 23:59"
   ejercicios:

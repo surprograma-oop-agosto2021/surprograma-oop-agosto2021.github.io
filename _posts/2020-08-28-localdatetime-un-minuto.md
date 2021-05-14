@@ -1,10 +1,10 @@
 ---
 title: 'LocalDateTime en un minuto'
 date: 2020-08-28
-author: pablo
+author: GerezPablo
 categories: [Apuntes]
 tags: [kotlin]
-summary: Guía rapidísima sobre manejo de fechas en Kotlin
+summary: Guía rapidísima sobre cómo manejar fechas en Kotlin
 ---
 
 Básicamente son clases nativas de Java 8, que sirven para representar momentos en el tiempo. Como hemos dicho en alguna otra oportunidad, en Kotlin se puede usar cualquier clase de Java, y por eso es que Kotlin no incluye una API propia para manejar fechas.
@@ -45,4 +45,4 @@ import java.time.LocalDateTime
 val inicioAislamientoArgentina = LocalDateTime.of(2020, 3, 20, 0, 0, 0)
 ```
 
-Esto es bien bien básico, pero suficiente para resolver el ejercicio de Servidor Web. Te dejamos la documentación oficial de [`LocalDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html) y la de [`LocalDate`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html) por si querés chusmear algo más.
+Esto es bien bien básico, pero suficiente para resolver varios ejercicios de la materia. Te dejamos la documentación oficial de [`LocalDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html) y la de [`LocalDate`](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html) por si querés chusmear algo más.
