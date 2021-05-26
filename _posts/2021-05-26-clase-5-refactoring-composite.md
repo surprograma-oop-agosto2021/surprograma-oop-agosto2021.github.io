@@ -12,7 +12,7 @@ videos:
     nombre: Composite - objetos "anidados", respetando el polimorfismo
   - nombre: Sesión de refactorización en vivo
 lecturas:
-  - url: https://refactoring.guru/es/design-patterns/strategy
+  - url: https://refactoring.guru/es/design-patterns/composite
     title: Patrón "Composite"
     summary: Un patrón nuevo, que tienen que aplicar en el ejercicio de la semana.
 entrega:
