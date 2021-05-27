@@ -5,12 +5,16 @@ author: faloi
 categories: [Clases]
 tags: [kotlin, diseño]
 videos:
-  - nombre: Encuentro sincrónico del 26 de Mayo
+  - id: c4Dun84-Kvk
+    nombre: Encuentro sincrónico del 26 de Mayo
   - id: U5e90OxcVLI
     nombre: Template method - delegando partes del algoritmo en las subclases
   - id: Cpkaf8EHeWg
     nombre: Composite - objetos "anidados", respetando el polimorfismo
   - nombre: Sesión de refactorización en vivo
+  - id: S2XwONMmocK4
+    nombre: Resolución en vivo del ejercicio "Ventas Aéreas"
+    opcional: true
 lecturas:
   - url: https://refactoring.guru/es/design-patterns/composite
     title: Patrón "Composite"
