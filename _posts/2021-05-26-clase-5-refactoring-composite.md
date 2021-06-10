@@ -13,7 +13,7 @@ videos:
     nombre: Template method - delegando partes del algoritmo en las subclases
   - id: Cpkaf8EHeWg
     nombre: Composite - objetos "anidados", respetando el polimorfismo
-  - id: S2XwONMmocK4
+  - id: 2XwONMmocK4
     nombre: Resolución en vivo del ejercicio "Ventas Aéreas"
     opcional: true
 lecturas:
