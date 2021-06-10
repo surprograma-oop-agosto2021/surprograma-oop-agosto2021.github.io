@@ -5,7 +5,8 @@ author: faloi
 categories: [Clases]
 tags: [kotlin, diseño]
 videos:
-  - nombre: Encuentro sincrónico del 9 de Junio
+  - id: Nl2LkM_uJ88
+    nombre: Encuentro sincrónico del 9 de Junio
 entrega:
   fecha: "2021-06-22 23:59"
   ejercicios:
