@@ -52,6 +52,8 @@ En vez de `booleano.shouldBe(true)` podemos escribir simplemente `booleano.shoul
 
 En este caso no importa el orden (por ejemplo, `elemento2` podría estar antes que `elemento1` en la lista y esto no daría error).
 
+:eyes: **Ojo:** este matcher no dice nada sobre los demás elementos de la colección, y en algunos casos necesitamos verificar que no haya otros elementos. En ese caso, deberíamos usar alguno de los matchers que vienen a continuación. 
+
 ### Si la colección tiene exactamente un grupo de elementos (y ninguno más)
 
 #### En orden
