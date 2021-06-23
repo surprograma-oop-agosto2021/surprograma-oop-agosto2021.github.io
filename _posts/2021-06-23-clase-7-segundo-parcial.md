@@ -25,7 +25,7 @@ entrega:
     repo: obj2-unahur/paises-impostores
     classroom: https://classroom.github.com/g/azxJUVRI
     descripcion: >
-      Presten especial atención a la distribución de requerimientos que explicamos más arriba.
+      Presten especial atención a los criterios que explicamos más arriba.
 ---
 
 Finalmente llegó el segundo momento menos esperado de la cursada: el segundo parcial. Haremos lo posible para que puedan transitar las siguientes dos semanas de la mejor manera posible.
