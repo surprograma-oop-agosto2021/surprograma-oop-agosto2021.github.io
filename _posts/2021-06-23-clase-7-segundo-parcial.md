@@ -5,7 +5,8 @@ author: faloi
 categories: [Clases]
 tags: [kotlin, diseño]
 videos:
-  - nombre: Encuentro sincrónico del 23 de Junio
+  - id: DgkpcyVz_NA
+    nombre: Encuentro sincrónico del 23 de Junio
   - id: 0euzfH_NWE0
     nombre: Inyección de dependencias e impostores en Kotlin
     descripcion: >
