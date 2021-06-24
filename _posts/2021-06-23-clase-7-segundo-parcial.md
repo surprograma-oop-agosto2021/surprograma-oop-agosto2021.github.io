@@ -22,7 +22,7 @@ entrega:
   fecha: "2021-07-06 23:59"
   ejercicios:
   - nombre: Países impostores
-    repo: obj2-unahur/paises-impostores
+    repo: obj2-unahur/impostores-paises
     classroom: https://classroom.github.com/g/azxJUVRI
     descripcion: >
       Presten especial atención a los criterios que explicamos más arriba.
