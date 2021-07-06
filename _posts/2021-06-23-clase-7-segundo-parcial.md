@@ -20,7 +20,7 @@ lecturas:
     title: Apunte sobre Testing
     summary: Un apunte muy completo relacionado al testing. En particular nos interesa que lean la sección **9. Impostores**, pero no vendría mal ojearlo completo.
 entrega:
-  fecha: "2021-07-06 23:59"
+  fecha: "2021-07-09 23:59"
   ejercicios:
   - nombre: Países impostores
     repo: obj2-unahur/impostores-paises
