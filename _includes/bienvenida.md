@@ -15,7 +15,7 @@ Cada **dos semanas** publicaremos una nueva clase, que estará compuesta por est
 * :book: **lecturas**, que servirán para ampliar vocabulario y guiar la búsqueda de más información sobre los temas que trabajemos,
 * :memo: un **ejercicio práctico obligatorio**, que deberá ser entregado por GitHub antes de que comience la siguiente clase. Según el nuevo régimen académico, deberán completar al menos el 70% de estas actividades para poder rendir los parciales,
 
-Durante lo que dura cada clase podrán hacer consultas por Discord, que serán respondidas según la disponibilidad del equipo docente. Además, en la semana "del medio" entre clase y clase, tendremos un espacio de consultas en vivo, también por Discord.
+Podrán hacer consultas por Discord en cualquier momento, que serán respondidas según la disponibilidad del equipo docente. Además, en la semana "del medio" entre clase y clase, tendremos un espacio de consultas en vivo, también por Discord.
 
 Las actividades sincrónicas serán en el horario de la materia, **Miércoles de 20 a 22**. Todo el material quedará disponible en este sitio para ser consultado cuando sea necesario.
 
