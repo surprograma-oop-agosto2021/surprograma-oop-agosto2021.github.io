@@ -8,15 +8,16 @@ Si es la primera vez que entrás acá, te recomendamos que leas el [contrato ped
 
 Por motivos de público conocimiento, la modalidad de cursada será 100% virtual. En este marco, lo que normalmente llamaríamos "una clase" se va a componer de varios elementos, y va a ser tu responsabilidad familiarizarte y trabajar con cada uno de ellos.
 
-En principio, el contenido de cada clase va a estar pensado para que puedas asimilarlo en el transcurso de dos semanas. Cada semana publicaremos una nueva clase, que podrá estar compuesta por estos elementos:
+Cada **dos semanas** publicaremos una nueva clase, que estará compuesta por estos elementos:
 
-* :video_camera: uno o más videos de introducción al tema de la clase,
-* :memo: un ejercicio práctico **obligatorio**, que deberá ser entregado por GitHub antes de que comience la siguiente clase. Según el nuevo régimen académico, deberán completar al menos el 70% de estas actividades para poder rendir los parciales,
-* :book: lecturas, que servirán para ampliar vocabulario y guiar la búsqueda de más información sobre los temas que trabajemos.
+* 💬 un **encuentro sincrónico** donde introduciremos la nueva clase y repasaremos los errores comunes de la anterior,
+* :video_camera: **videos** que explican los temas de la clase,
+* :book: **lecturas**, que servirán para ampliar vocabulario y guiar la búsqueda de más información sobre los temas que trabajemos,
+* :memo: un **ejercicio práctico obligatorio**, que deberá ser entregado por GitHub antes de que comience la siguiente clase. Según el nuevo régimen académico, deberán completar al menos el 70% de estas actividades para poder rendir los parciales,
 
-Tendremos, además, una sesión sincrónica todos los **Miércoles de 20:00 a 21:00hs**, por medio de Google Meet. Es importante que vean todo el material y resuelvan los ejercicios de la semana _antes_ de esa sesión, ya que su objetivo será principalmente evacuar dudas y dar alguna devolución general.
+Durante lo que dura cada clase podrán hacer consultas por Discord, que serán respondidas según la disponibilidad del equipo docente. Además, en la semana "del medio" entre clase y clase, tendremos un espacio de consultas en vivo, también por Discord.
 
-Todo el material quedará disponible en este sitio para ser consultado cuando sea necesario.
+Las actividades sincrónicas serán en el horario de la materia, **Miércoles de 20 a 22**. Todo el material quedará disponible en este sitio para ser consultado cuando sea necesario.
 
 ## :phone: Canales de comunicación
 
