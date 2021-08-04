@@ -4,6 +4,10 @@ date: 2021-08-02
 author: faloi
 categories: [Clases]
 tags: [typescript]
+lecturas:
+  - url: https://surprograma.github.io/libro-disenio-oop/docs/pruebas-automatizadas/elaborar-casos-prueba/
+    title: ¿Cómo elaborar casos de prueba?
+    summary: Una guía práctica de cómo armar buenas pruebas automatizadas.
 videos:
   - id: 3kHdzWSJjuM
     nombre: Encuentro sincrónico del 2 de Agosto
