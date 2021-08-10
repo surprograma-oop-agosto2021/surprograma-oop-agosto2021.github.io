@@ -61,9 +61,11 @@ Para encontrarlos más facilmente, todos los videos irán quedando en una lista 
 
 ## Ahora sí: ¡hola Kotlin y Typescript!
 
-Para transmitir los conceptos de la materia hemos elegido utilizar dos lenguajes: [Kotlin](https://kotlinlang.org/) y [TypeScript](https://www.typescriptlang.org/), y el objetivo principal de esta primera clase es que te familiarices con alguno de ellos. Además de ser el nombre de una [isla rusa :ru:](https://es.wikipedia.org/wiki/Isla_de_Kotlin), Kotlin es un lenguaje de programación orientada a objetos con tipado estático, bastante utilizado hoy en día para el desarrollo de aplicaciones móviles en Android. En cuanto a TypeScript, podemos decir que es "el primo tipado" de [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript), y que últimamente viene pisando fuerte en la industria. Puede utilizarse en los mismos lugares que JavaScript: frontend, NodeJS, aplicaciones móviles con React Native, etc.
+Para transmitir los conceptos de la materia hemos elegido utilizar dos lenguajes: [Kotlin](https://kotlinlang.org/) y [TypeScript](https://www.typescriptlang.org/), y el objetivo principal de esta primera clase es que te familiarices con alguno de ellos. Además de ser el nombre de una [isla rusa :ru:](https://es.wikipedia.org/wiki/Isla_de_Kotlin), Kotlin es un lenguaje de programación orientada a objetos con tipado estático, bastante utilizado hoy en día para el desarrollo de aplicaciones móviles en Android.
 
-Ambos tiene una sintaxis sencilla y bastante parecida a la de Wollok, con la principal diferencia de que hay que explicitar los tipos de _algunas cosas_: principalmente parámetros y valores de retorno de los métodos. Sin ponernos demasiado formales, podemos decir que un _tipo_ define a un grupo de objetos con características similares, por ejemplo:
+En cuanto a TypeScript, podemos decir que es "el primo tipado" de [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript), y que últimamente viene pisando fuerte en la industria. Puede utilizarse en los mismos lugares que JavaScript: frontend, NodeJS, aplicaciones móviles con React Native, etc.
+
+Ambos tienen una sintaxis sencilla y bastante parecida, con la principal característica de que hay que explicitar los tipos de _algunas cosas_: principalmente parámetros y valores de retorno de los métodos. Sin ponernos demasiado formales, podemos decir que un _tipo_ define a un grupo de objetos con características similares, por ejemplo:
 
 * el tipo `Int` (Kotlin) o `number` (TypeScript) para los números enteros, con los cuales se puede sumar, restar, multiplicar...
 * el tipo `String` (Kotlin) o `string` (TypeScript) para las cadenas de texto, las cuales se pueden pasar a mayúsculas, recortar, consultar su longitud...
