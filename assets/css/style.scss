@@ -2,6 +2,6 @@
 ---
 
 // see: /_sass/addon/commons.scss
-$tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
+$tab-count: {{ site.tabs | size | plus: 2 }}; // plus 2 for home tab and libro
 
 @import "jekyll-theme-chirpy";

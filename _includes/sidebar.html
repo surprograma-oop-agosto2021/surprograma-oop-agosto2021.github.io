@@ -36,6 +36,12 @@
         <span>{{ site.data.label.home | upcase }}</span>
       </a>
     </li>
+    <li class="nav-item">
+      <a href="https://surprograma.github.io/libro-disenio-oop" rel="nofollow" target="_blank" class="nav-link">
+        <i class="fa-fw fas fa-book ml-xl-3 mr-xl-3 unloaded"></i>
+        <span>LIBRO</span>
+      </a>
+    </li>
     <!-- the real tabs -->
     {% for tab in site.tabs %}
     <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
