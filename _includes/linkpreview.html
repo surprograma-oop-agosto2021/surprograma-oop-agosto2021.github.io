@@ -1,2 +1,2 @@
-<a href="{{ link_url }}">{{ link_title }}</a>
+<a href="{{ link_url | replace: ".io//", ".io/" }}">{{ link_title }}</a>
 <p>{{ link_description }}</p>
