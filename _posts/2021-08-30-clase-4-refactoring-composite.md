@@ -1,6 +1,6 @@
 ---
 title: 'Clase 4 - Refactoring y patrón Composite'
-date: 2021-08-23
+date: 2021-08-30
 author: faloi
 categories: [Clases]
 tags: [kotlin, tdd, pruebas]
