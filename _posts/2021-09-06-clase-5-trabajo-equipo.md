@@ -29,7 +29,7 @@ El enunciado tiene algunos requerimientos para resolver en equipo y otros para r
 
 La distribución de requerimientos es la siguiente:
 
-* **Requerimientos 1 al 5**: los resuelven en equipo.
-* **Requerimientos 6 en adelante**: los resuelven de manera individual, acordando entre ustedes quién resuelve cada uno.
+* **Requerimientos 1 al 4**: los resuelven en equipo.
+* **Requerimientos 5 en adelante**: los resuelven de manera individual, acordando entre ustedes quién resuelve cada uno.
 
 **Aclaración importante:** en todos los casos van a trabajar sobre el mismo repositorio, la división de requerimientos está armada de forma tal que no van a necesitar interactuar demasiado con la otra persona para implementarlos.
