@@ -1,5 +1,5 @@
 ---
-title: 'Clase 6 - Interacción con el mundo real'
+title: 'Clase 6 - Comunicación entre componentes'
 date: 2021-09-14
 author: faloi
 categories: [Clases]
