@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://surprograma-oop-agosto2021.github.io/sitemap.xml
